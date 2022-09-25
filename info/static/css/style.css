@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'SF UI Text';
+    src: url('../fonts/SFUIText-Bold.eot');
+    src: local('SF UI Text Bold'), local('SFUIText-Bold'),
+    url('../fonts/SFUIText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+    url('../fonts/SFUIText-Bold.woff') format('woff'),
+    url('../fonts/SFUIText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url('../fonts/SFUIText-Light.eot');
+    src: local('SF UI Text Light'), local('SFUIText-Light'),
+    url('../fonts/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIText-Light.woff2') format('woff2'),
+    url('../fonts/SFUIText-Light.woff') format('woff'),
+    url('../fonts/SFUIText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.wrapper {
+    height: 100%;
+}
+
+.content {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+}
+
+.footer {
+    height: 80px;
+    margin-top: -80px;
+}
+
+p {
+    font-family: "SF UI Text";
+    font-weight: normal;
+    font-size: 3vmin;
+}
+
+.about {
+    padding: 2.5vh 1vw;
+    float: left;
+    text-align: start;
+}
+
+.avatar {
+    width: 30%;
+    float: left;
+    margin-right: 1vw;
+}
