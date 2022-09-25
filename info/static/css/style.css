@@ -30,13 +30,7 @@
 html,
 body,
 .wrapper {
-    height: 100%;
-}
-
-.content {
-    box-sizing: border-box;
-    min-height: 100%;
-    padding-bottom: 90px;
+    height: fit-content;
 }
 
 .footer {
@@ -50,14 +44,35 @@ p {
     font-size: 3vmin;
 }
 
+.bg {
+    background-color: #1c1c1c;
+}
+
+.content {
+    background-color: #fffafa;
+    width: 60%;
+    height: 100%;
+}
+
 .about {
-    padding: 2.5vh 1vw;
+    padding: 2.5vh 1vw 0 1vw;
     float: left;
     text-align: start;
 }
 
 .avatar {
-    width: 30%;
-    float: left;
-    margin-right: 1vw;
+    width: -webkit-fill-available;
+    margin: 1.6vh 0.9vw;
+}
+
+.bold {
+    font-family: "SF UI Text";
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.contact {
+    font-family: "SF UI Text";
+    font-weight: normal;
+    font-size: 3vmin;
 }
