@@ -1,7 +1,7 @@
 # Getting started
 ___
 **Clone the project**  
-```git clone https://github.com/erinallard/instagram_miner.git ```  
+```git clone https://github.com/DJsega1/intensive.git ```  
 
 **Create and start a a virtual environment**  
 ```virtualenv env --no-site-packages```  
